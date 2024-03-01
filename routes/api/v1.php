@@ -22,5 +22,6 @@ Route::namespace('V1')->prefix('v1')->middleware('api.key')->group(function () {
 
     Route::middleware('auth:sanctum')->group(function () {
         Route::post('logout', 'AuthController@logout')->name('auth.logout');
+        Route::post('user/create', 'UserController@store')->name('user.create');
     });
 });

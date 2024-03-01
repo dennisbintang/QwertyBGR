@@ -2,14 +2,15 @@
 
 namespace App\Http\Controllers\V1;
 
-use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use App\Business\V1\Auth\LoginBusiness;
 
 class AuthController extends Controller
 {
-    public function login(Request $request)
+    public function login(Request $request, LoginBusiness $loginBusiness)
     {
-        $auth = new \App\Business\V1\Auth\LoginBusiness($request);
+        $auth = $loginBusiness->execute($request);
 
         if (!$auth->authenticated) {
             return response()->json(response_error($auth->errors), 401);
@@ -27,5 +28,5 @@ class AuthController extends Controller
         auth()->user()->tokens()->delete();
 
         return response()->json(response_success());
-    } 
+    }
 }

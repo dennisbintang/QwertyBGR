@@ -16,7 +16,7 @@ class LoginBusiness
     public $authenticated = false;
     private $attributes = null;
 
-    public function __construct(Request $request)
+    public function execute(Request $request)
     {
         $this->attributes = $request;
 
