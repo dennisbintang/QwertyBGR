@@ -1,0 +1,243 @@
+.ec-category-wrapper-5 .cat-card {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.ec-category-wrapper-5 .cat-card img {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.ec-category-wrapper-5 .cat-card:hover .cat-detail {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+.ec-category-wrapper-5 .cat-card:hover .btn-primary-1 {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.ec-category-wrapper-5 .cat-card:hover img {
+  -webkit-transform: scale(1.2) rotate(-5deg);
+  transform: scale(1.2) rotate(-5deg);
+}
+.ec-category-wrapper-5 .cat-card .btn-primary-1 {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  width: 120px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  padding: 10px 15px 8px 15px;
+  text-transform: uppercase;
+  border-radius: 30px;
+  z-index: 1;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  line-height: 22px;
+  text-align: center;
+}
+.ec-category-wrapper-5 .cat-card .cat-detail {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 15px;
+  opacity: 1;
+}
+.ec-category-wrapper-5 .cat-card .cat-detail .cat-detail-block {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.8);
+}
+.ec-category-wrapper-5 .cat-card .cat-detail h4,
+.ec-category-wrapper-5 .cat-card .cat-detail .h4 {
+  font-weight: 700;
+  font-size: 17px;
+}
+.ec-category-wrapper-5 .cat-card .cat-detail h5,
+.ec-category-wrapper-5 .cat-card .cat-detail .h5 {
+  line-height: 1.4;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 15px;
+}
+.ec-category-wrapper-5 .cat-card .cat-detail .btn-primary {
+  padding: 8px 15px;
+  text-transform: uppercase;
+  border-radius: 30px;
+  line-height: 22px;
+}
+
+/*------ Box Card ------*/
+.ec-box-card {
+  float: left;
+  width: 100%;
+  margin: 15px auto;
+}
+.ec-box-card .ec-wrapper {
+  background-color: #ffffff;
+  min-height: 400px;
+  position: relative;
+  overflow: hidden;
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
+}
+.ec-box-card .ec-body {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  -webkit-transform: translateY(calc(65px + 15px));
+  transform: translateY(calc(65px + 15px));
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+.ec-box-card .ec-body .ec-content {
+  padding: 15px;
+  position: relative;
+  z-index: 1;
+}
+.ec-box-card .ec-author {
+  font-size: 12px;
+}
+.ec-box-card .ec-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.4;
+  font-size: 20px;
+  color: #212121;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+}
+.ec-box-card .ec-text {
+  height: 70px;
+  margin: 0;
+  color: #777;
+}
+.ec-box-card .ec-date {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #3474d4;
+  color: #ffffff;
+  padding: 0.8em;
+}
+.ec-box-card .ec-date span {
+  display: block;
+  text-align: center;
+}
+.ec-box-card .ec-date .ec-day {
+  font-weight: 700;
+  font-size: 24px;
+  text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.18);
+}
+.ec-box-card .ec-date .ec-month {
+  text-transform: uppercase;
+}
+.ec-box-card .ec-date .ec-month,
+.ec-box-card .ec-date .ec-year {
+  font-size: 12px;
+}
+.ec-box-card .ec-content {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.3);
+}
+.ec-box-card .ec-title a {
+  color: gray;
+  font-weight: 700;
+}
+.ec-box-card .ec-menu-button {
+  position: absolute;
+  z-index: 999;
+  top: 11px;
+  right: 16px;
+  width: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+.ec-box-card .ec-menu-button span {
+  width: 5px;
+  height: 5px;
+  background-color: gray;
+  color: gray;
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+}
+.ec-box-card .ec-menu-button span::after,
+.ec-box-card .ec-menu-button span::before {
+  content: '';
+  display: block;
+  width: 5px;
+  height: 5px;
+  background-color: currentColor;
+  position: absolute;
+  border-radius: 50%;
+}
+.ec-box-card .ec-menu-button span::before {
+  left: -10px;
+}
+.ec-box-card .ec-menu-button span::after {
+  right: -10px;
+}
+.ec-box-card:hover .ec-body {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+.ec-box-card .ec-wrapper.wrp-img-1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))),
+    url(../images/blog-image/11.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/blog-image/11.jpg);
+  background-position: center;
+}
+.ec-box-card .ec-wrapper.wrp-img-2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))),
+    url(../images/blog-image/12.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/blog-image/12.jpg);
+  background-position: center;
+}
+.ec-box-card .ec-wrapper.wrp-img-3 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))),
+    url(../images/blog-image/13.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/blog-image/13.jpg);
+  background-position: center;
+}
