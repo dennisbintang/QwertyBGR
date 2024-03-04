@@ -241,3 +241,22 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/blog-image/13.jpg);
   background-position: center;
 }
+.ec-main-menu ul li a {
+  color: #fff !important;
+  text-decoration: none;
+}
+.ec-main-menu ul li.active a {
+  color: #fff !important;
+  text-decoration: none;
+}
+.ec-main-menu ul li.active a::before {
+  background: none;
+}
+.ec-main-menu ul li a:hover::before {
+  background: none;
+}
+.ec-main-menu ul li a:hover {
+  color: #fff !important;
+  text-decoration: none;
+}
+
