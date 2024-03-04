@@ -311,3 +311,26 @@ div#ec-main-menu-desk,
 .filter__input {
   max-width: 90px;
 }
+
+.ec-main-menu ul li a {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.ec-main-menu ul li.active a {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.ec-main-menu ul li.active a::before {
+  background: none;
+}
+
+.ec-main-menu ul li a:hover::before {
+  background: none;
+}
+
+.ec-main-menu ul li a:hover {
+  color: #fff !important;
+  text-decoration: none;
+}

@@ -21985,6 +21985,16 @@ select::-ms-expand {
   width: 100%;
   outline: none;
 }
+.ec-contact-container .ec-contact-form select {
+  background-color: transparent;
+  border: 1px solid #ededed;
+  color: #444444;
+  font-size: 14px;
+  margin-bottom: 27px;
+  padding: 0 15px;
+  width: 100%;
+  outline: none;
+}
 .ec-contact-container .ec-contact-form input::-webkit-input-placeholder {
   color: #777;
 }
