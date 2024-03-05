@@ -328,7 +328,9 @@ div#ec-main-menu-desk,
 
 .ec-main-menu ul li a,
 .ec-footer .footer-top .ec-footer-widget .ec-footer-heading,
-.ec-footer-link span, .ec-footer a, .footer-bottom .ec-copy {
+.ec-footer-link span,
+.ec-footer a,
+.footer-bottom .ec-copy {
   color: #fff !important;
 }
 
@@ -363,7 +365,8 @@ div#ec-main-menu-desk,
   text-decoration: none;
 }
 
-.ec-pro-tab-nav .nav-item .nav-link.active, .ec-pro-tab-nav .nav-item .nav-link:hover {
+.ec-pro-tab-nav .nav-item .nav-link.active,
+.ec-pro-tab-nav .nav-item .nav-link:hover {
   background: #273c75;
   padding: 0 10px 0 10px;
   color: #fff;
@@ -374,4 +377,8 @@ div#ec-main-menu-desk,
   font-size: 65px;
   background: rgb(0 0 0 / 55%);
   padding: 14px;
+}
+
+.bg-texture {
+  background: url('../images/bg/newsletter-bg.png');
 }

@@ -103,8 +103,8 @@
                     <span class="ec-btn-title">My Account</span>
                   </button>
                   <ul class="dropdown-menu dropdown-menu-right">
-                    <li><a class="dropdown-item" href="#">Register</a></li>
-                    <li><a class="dropdown-item" href="#">Login</a></li>
+                    <li><a class="dropdown-item" href="register.html">Register</a></li>
+                    <li><a class="dropdown-item" href="login.html">Login</a></li>
                   </ul>
                 </div>
                 <!-- Header User End -->
@@ -172,13 +172,13 @@
         <div class="col-12">
           <div class="row ec_breadcrumb_inner">
             <div class="col-md-6 col-sm-12">
-              <h2 class="ec-breadcrumb-title">Display Detail</h2>
+              <h2 class="ec-breadcrumb-title">Checkout</h2>
             </div>
             <div class="col-md-6 col-sm-12">
               <!-- ec-breadcrumb-list start -->
               <ul class="ec-breadcrumb-list">
                 <li class="ec-breadcrumb-item"><a href="index.html">Beranda</a></li>
-                <li class="ec-breadcrumb-item active">Display Detail</li>
+                <li class="ec-breadcrumb-item active">Checkout</li>
               </ul>
               <!-- ec-breadcrumb-list end -->
             </div>
@@ -189,262 +189,129 @@
   </div>
   <!-- Ec breadcrumb end -->
 
-  <!-- Sart Single product -->
+  <!-- Ec checkout page -->
   <section class="ec-page-content section-space-p pt-0">
     <div class="container">
       <div class="row">
-        <div class="ec-pro-rightside ec-common-rightside col-lg-12 col-md-12">
-
-          <!-- Single product content Start -->
-          <div class="single-pro-block">
-            <div class="single-pro-inner">
-              <div class="row">
-                <div class="single-pro-img single-pro-img-no-sidebar">
-                  <div class="single-product-scroll">
-                    <div class="single-product-cover">
-                      <div class="single-slide zoom-image-hover">
-                        <img class="img-responsive" src="assets/images/product/product-1.png" alt="">
-                      </div>
-                      <div class="single-slide zoom-image-hover">
-                        <img class="img-responsive" src="assets/images/product/product-1.png" alt="">
-                      </div>
-                      <div class="single-slide zoom-image-hover">
-                        <img class="img-responsive" src="assets/images/product/product-1.png" alt="">
-                      </div>
-                      <div class="single-slide zoom-image-hover">
-                        <img class="img-responsive" src="assets/images/product/product-1.png" alt="">
-                      </div>
-                      <div class="single-slide zoom-image-hover">
-                        <img class="img-responsive" src="assets/images/product/product-1.png" alt="">
-                      </div>
-                    </div>
-                    <div class="single-nav-thumb">
-                      <div class="single-slide">
-                        <img class="img-responsive" src="assets/images/product/product-1.png" alt="">
-                      </div>
-                      <div class="single-slide">
-                        <img class="img-responsive" src="assets/images/product/product-1.png" alt="">
-                      </div>
-                      <div class="single-slide">
-                        <img class="img-responsive" src="assets/images/product/product-1.png" alt="">
-                      </div>
-                      <div class="single-slide">
-                        <img class="img-responsive" src="assets/images/product/product-1.png" alt="">
-                      </div>
-                      <div class="single-slide">
-                        <img class="img-responsive" src="assets/images/product/product-1.png" alt="">
-                      </div>
-                    </div>
+        <!-- Sidebar Area Start -->
+        <div class="ec-checkout-rightside col-lg-2 col-md-12">
+        </div>
+        <div class="ec-checkout-rightside col-lg-8 col-md-12">
+          <div class="ec-sidebar-wrap">
+            <!-- Sidebar Summary Block -->
+            <div class="ec-sidebar-block">
+              <div class="ec-sb-title">
+                <h3 class="ec-sidebar-title">Summary</h3>
+              </div>
+              <div class="ec-sb-block-content">
+                <div class="ec-checkout-summary">
+                  <div>
+                    <span class="text-left">Sub-Total</span>
+                    <span class="text-right">Rp100.000</span>
+                  </div>
+                  <div>
+                    <span class="text-left">Administrasi</span>
+                    <span class="text-right">Rp5000</span>
+                  </div>
+                  <div>
+                    <span class="text-left">Kupon Diskon</span>
+                    <span class="text-right"><a class="ec-checkout-coupan">Apply Coupan</a></span>
+                  </div>
+                  <div class="ec-checkout-coupan-content">
+                    <form class="ec-checkout-coupan-form" name="ec-checkout-coupan-form" method="post" action="#">
+                      <input class="ec-coupan" type="text" required="" placeholder="Enter Your Coupan Code"
+                        name="ec-coupan" value="">
+                      <button class="ec-coupan-btn button btn-primary" type="submit" name="subscribe"
+                        value="">Apply</button>
+                    </form>
+                  </div>
+                  <div class="ec-checkout-summary-total">
+                    <span class="text-left">Total Amount</span>
+                    <span class="text-right">Rp105.000</span>
                   </div>
                 </div>
-                <div class="single-pro-desc single-pro-desc-no-sidebar">
-                  <div class="single-pro-content">
-                    <h5 class="ec-single-title mb-0">Alun-Alun
-                      Kota</h5>
-                    <div class="ec-single-rating-wrap">
-                      <span class="text-primary">Jakarta Selatan, DKI Jakarta</span>
-                    </div>
-                    <div class="ec-single-price-stoke">
-                      <div class="ec-single-price">
-                        <span class="ec-single-ps-title">Harga</span>
-                        <span class="new-price">Rp100.000</span>
-                      </div>
-                      <div class="ec-single-stoke">
-                        <a href="checkout.html" class="btn btn-primary" name="button"><i
-                            class="ecicon eci-opencart"></i>&nbsp; Pesan Sekarang</a>
-                      </div>
-                    </div>
-                    <!-- Single product tab start -->
-                    <div class="ec-single-pro-tab">
-                      <div class="ec-single-pro-tab-wrapper">
-                        <div class="ec-single-pro-tab-nav">
-                          <ul class="nav nav-tabs">
-                            <li class="nav-item">
-                              <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#ec-spt-nav-details"
-                                role="tablist">Detail</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#ec-spt-nav-maps"
-                                role="tablist">Maps</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#ec-spt-nav-review"
-                                role="tablist">Reviews</a>
-                            </li>
-                          </ul>
+                <div class="ec-checkout-pro">
+                  <div class="col-sm-12 mb-6">
+                    <div class="ec-product-inner">
+                      <div class="ec-pro-image-outer">
+                        <div class="ec-pro-image">
+                          <a href="display-detail.html" class="image">
+                            <img class="main-image" src="assets/images/product/product-1.png" alt="Product" />
+                            <img class="hover-image" src="assets/images/product/product-1.png" alt="Product" />
+                          </a>
                         </div>
-                        <div class="tab-content  ec-single-pro-tab-content">
-                          <div id="ec-spt-nav-details" class="tab-pane fade show active">
-                            <div class="ec-single-pro-tab-desc">
-                              <p>Dengan letaknya di persimpangan jalan membuat Digital billboard ini mampu menarik
-                                perhatian orang yang melintas.
-                              </p>
-                              <div class="border px-3">
-                                <div class="row my-2 width-100">
-                                  <div class="col-md-4 width-40">
-                                    <div class="d-flex flex-row">
-                                      <div class="mr-1">
-                                        <i class="text-primary ecicon eci-dot-circle-o"></i>
-                                      </div>
-                                      <div class="">
-                                        <p class="mb-0">Teknologi</p>
-                                        <b class="text-bold">Digital</b>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col-md-4 width-40">
-                                    <div class="d-flex flex-row">
-                                      <div class="mr-1">
-                                        <i class="text-primary ecicon eci-tv"></i>
-                                      </div>
-                                      <div class="">
-                                        <p class="mb-0">Penempatan</p>
-                                        <b class="text-bold">Outdoor</b>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col-md-4 width-40">
-                                    <div class="d-flex flex-row">
-                                      <div class="mr-1">
-                                        <i class="text-primary ecicon eci-window-maximize"></i>
-                                      </div>
-                                      <div class="">
-                                        <p class="mb-0">Orientasi</p>
-                                        <b class="text-bold">Portait</b>
-                                      </div>
-                                    </div>
-                                  </div>
+                      </div>
+                      <div class="ec-pro-content">
+                        <h5 class=""><a href="display-detail.html" class="text-primary-1">Alun-Alun
+                            Kota</a></h5>
+                        <span class="text-primary">Jakarta Selatan, DKI Jakarta</span>
+                        <div class="border px-3 mt-2">
+                          <div class="row my-2 width-100">
+                            <div class="col-md-4 width-40">
+                              <div class="d-flex flex-row">
+                                <div class="mr-1">
+                                  <i class="text-primary ecicon eci-dot-circle-o"></i>
                                 </div>
-                                <div class="row my-2 width-100">
-                                  <div class="col-md-4 width-40">
-                                    <div class="d-flex flex-row">
-                                      <div class="mr-1">
-                                        <i class="text-primary ecicon eci-image"></i>
-                                      </div>
-                                      <div class="">
-                                        <p class="mb-0">Ukuran</p>
-                                        <b class="text-bold">800x500 cm</b>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col-md-4 width-40">
-                                    <div class="d-flex flex-row">
-                                      <div class="mr-1">
-                                        <i class="text-primary ecicon eci-image"></i>
-                                      </div>
-                                      <div class="">
-                                        <p class="mb-0">Ukuran Pixel</p>
-                                        <b class="text-bold">768x384 pixels</b>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col-md-4 width-40">
-                                    <div class="d-flex flex-row">
-                                      <div class="mr-1">
-                                        <i class="text-primary ecicon eci-clock-o"></i>
-                                      </div>
-                                      <div class="">
-                                        <p class="mb-0">Jam Tayang</p>
-                                        <b class="text-bold">06:00 - 22:30</b>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="row my-2 width-100">
-                                  <div class="col-md-4 width-40">
-                                    <div class="d-flex flex-row">
-                                      <div class="mr-1">
-                                        <i class="text-primary ecicon eci-play-circle"></i>
-                                      </div>
-                                      <div class="">
-                                        <p class="mb-0">Durasi Per Iklan</p>
-                                        <b class="text-bold">15 Detik</b>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="col-md-4 width-40">
-                                    <div class="d-flex flex-row">
-                                      <div class="mr-1">
-                                        <i class="text-primary ecicon eci-list"></i>
-                                      </div>
-                                      <div class="">
-                                        <p class="mb-0">Minimum Spot Harian</p>
-                                        <b class="text-bold">10</b>
-                                      </div>
-                                    </div>
-                                  </div>
+                                <div class="">
+                                  <p class="mb-0">Teknologi</p>
+                                  <b class="text-bold">Digital</b>
                                 </div>
                               </div>
-                              <hr>
-                              <h6>Informasi Tambahan</h6>
-                              <p>
-                                Rotasi Iklan: setiap 4 menit/iklan <br>
-                                Minimum spot pembelian: 100 spot <br>
-                                *Untuk pembelian spot di videotron ini harus sesuai kelipatan minimum spot* <br>
-
-                                Harga setiap spot: Rp.9.000 <br>
-
-                                Jadwal penayangan secara random, sesuai dengan jam operasional LED Videotron <br>
-
-                                Batas waktu pemesanan 3 Hari Kerja
-                              </p>
+                            </div>
+                            <div class="col-md-4 width-40">
+                              <div class="d-flex flex-row">
+                                <div class="mr-1">
+                                  <i class="text-primary ecicon eci-tv"></i>
+                                </div>
+                                <div class="">
+                                  <p class="mb-0">Penempatan</p>
+                                  <b class="text-bold">Outdoor</b>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-4 width-40">
+                              <div class="d-flex flex-row">
+                                <div class="mr-1">
+                                  <i class="text-primary ecicon eci-window-maximize"></i>
+                                </div>
+                                <div class="">
+                                  <p class="mb-0">Orientasi</p>
+                                  <b class="text-bold">Portait</b>
+                                </div>
+                              </div>
                             </div>
                           </div>
-                          <div id="ec-spt-nav-maps" class="tab-pane fade show">
-                            <iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0"
-                              marginwidth="0"
-                              src="https://maps.google.com/maps?q=-6.5980584,106.7930936&amp;hl=in&amp;z=14&amp;output=embed"></iframe>
-                            <iframe
-                              src="https://www.google.com/maps/embed?pb=!4v1709558703953!6m8!1m7!1s89t0eQQ7KheQcR7KusPOSA!2m2!1d-6.212918453581798!2d106.8044175756824!3f67.41743082781073!4f-1.199609023305399!5f0.7820865974627469"
-                              width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                              referrerpolicy="no-referrer-when-downgrade"></iframe>
-                          </div>
-                          <div id="ec-spt-nav-review" class="tab-pane fade">
-                            <div class="row">
-                              <div class="ec-t-review-wrapper">
-                                <div class="ec-t-review-item">
-                                  <div class="ec-t-review-content">
-                                    <div class="ec-t-review-top">
-                                      <div class="ec-t-review-name">Jeny Doe</div>
-                                      <div class="ec-t-review-rating">
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star-o"></i>
-                                      </div>
-                                    </div>
-                                    <div class="ec-t-review-bottom">
-                                      <p>Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry. Lorem Ipsum has been the industry's
-                                        standard dummy text ever since the 1500s, when an unknown
-                                        printer took a galley of type and scrambled it to make a
-                                        type specimen.
-                                      </p>
-                                    </div>
-                                  </div>
+                          <div class="row my-2 width-100">
+                            <div class="col-md-4 width-40">
+                              <div class="d-flex flex-row">
+                                <div class="mr-1">
+                                  <i class="text-primary ecicon eci-image"></i>
                                 </div>
-                                <div class="ec-t-review-item">
-                                  <div class="ec-t-review-content">
-                                    <div class="ec-t-review-top">
-                                      <div class="ec-t-review-name">Linda Morgus</div>
-                                      <div class="ec-t-review-rating">
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star fill"></i>
-                                        <i class="ecicon eci-star-o"></i>
-                                        <i class="ecicon eci-star-o"></i>
-                                      </div>
-                                    </div>
-                                    <div class="ec-t-review-bottom">
-                                      <p>Lorem Ipsum is simply dummy text of the printing and
-                                        typesetting industry. Lorem Ipsum has been the industry's
-                                        standard dummy text ever since the 1500s, when an unknown
-                                        printer took a galley of type and scrambled it to make a
-                                        type specimen.
-                                      </p>
-                                    </div>
-                                  </div>
+                                <div class="">
+                                  <p class="mb-0">Ukuran</p>
+                                  <b class="text-bold">800x500 cm</b>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-4 width-40">
+                              <div class="d-flex flex-row">
+                                <div class="mr-1">
+                                  <i class="text-primary ecicon eci-image"></i>
+                                </div>
+                                <div class="">
+                                  <p class="mb-0">Ukuran Pixel</p>
+                                  <b class="text-bold">768x384 pixels</b>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-md-4 width-40">
+                              <div class="d-flex flex-row">
+                                <div class="mr-1">
+                                  <i class="text-primary ecicon eci-clock-o"></i>
+                                </div>
+                                <div class="">
+                                  <p class="mb-0">Jam Tayang</p>
+                                  <b class="text-bold">06:00 - 22:30</b>
                                 </div>
                               </div>
                             </div>
@@ -452,19 +319,74 @@
                         </div>
                       </div>
                     </div>
-                    <!-- product details description area end -->
                   </div>
                 </div>
               </div>
             </div>
-            <!--Single product content End -->
-
+            <!-- Sidebar Summary Block -->
           </div>
-
+          <div class="ec-sidebar-wrap ec-checkout-pay-wrap">
+            <!-- Sidebar Payment Block -->
+            <div class="ec-sidebar-block">
+              <div class="ec-sb-block-content">
+                <div class="ec-checkout-pay">
+                  <form action="#">
+                    <span class="ec-pay-commemt">
+                      <span class="ec-pay-opt-head">Tambahkan Deskripsi</span>
+                      <textarea name="your-commemt" placeholder="Deskripsi"></textarea>
+                    </span>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <!-- Sidebar Payment Block -->
+          </div>
+          <div class="ec-sidebar-wrap ec-check-pay-img-wrap">
+            <!-- Sidebar Payment Block -->
+            <div class="ec-sidebar-block">
+              <div class="ec-sb-title">
+                <h3 class="ec-sidebar-title">Metode Pembayaran</h3>
+              </div>
+              <div class="ec-sb-block-content">
+                <div class="ec-check-pay-img-inner">
+                  <div class="ec-check-pay-img">
+                    <img src="assets/images/icons/payment1.png" alt="">
+                  </div>
+                  <div class="ec-check-pay-img">
+                    <img src="assets/images/icons/payment2.png" alt="">
+                  </div>
+                  <div class="ec-check-pay-img">
+                    <img src="assets/images/icons/payment3.png" alt="">
+                  </div>
+                  <div class="ec-check-pay-img">
+                    <img src="assets/images/icons/payment4.png" alt="">
+                  </div>
+                  <div class="ec-check-pay-img">
+                    <img src="assets/images/icons/payment5.png" alt="">
+                  </div>
+                  <div class="ec-check-pay-img">
+                    <img src="assets/images/icons/payment6.png" alt="">
+                  </div>
+                  <div class="ec-check-pay-img">
+                    <img src="assets/images/icons/payment7.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Sidebar Payment Block -->
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <button class="btn btn-primary btn-block">Pesan Sekarang</button>
+            </div>
+            <div class="col-6">
+              <button class="btn btn-danger btn-block">Batalkan Pesanan</button>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
   </section>
-  <!-- End Single product -->
 
   <!-- Footer Start -->
   <footer class="ec-footer section-space-mt">
